@@ -1,0 +1,14 @@
+D:\SU25\PRN212\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\PRN212_HW1.exe
+D:\SU25\PRN212\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\PRN212_HW1.deps.json
+D:\SU25\PRN212\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\PRN212_HW1.runtimeconfig.json
+D:\SU25\PRN212\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\PRN212_HW1.dll
+D:\SU25\PRN212\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\PRN212_HW1.pdb
+D:\SU25\PRN212\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\PRN212_HW1.GeneratedMSBuildEditorConfig.editorconfig
+D:\SU25\PRN212\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\PRN212_HW1.AssemblyInfoInputs.cache
+D:\SU25\PRN212\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\PRN212_HW1.AssemblyInfo.cs
+D:\SU25\PRN212\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\PRN212_HW1.csproj.CoreCompileInputs.cache
+D:\SU25\PRN212\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\PRN212_HW1.dll
+D:\SU25\PRN212\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\refint\PRN212_HW1.dll
+D:\SU25\PRN212\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\PRN212_HW1.pdb
+D:\SU25\PRN212\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\PRN212_HW1.genruntimeconfig.cache
+D:\SU25\PRN212\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ref\PRN212_HW1.dll

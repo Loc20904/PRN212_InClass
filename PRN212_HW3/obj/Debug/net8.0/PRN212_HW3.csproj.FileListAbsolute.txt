@@ -1,0 +1,14 @@
+D:\SU25\PRN212\PRN212_HW3\bin\Debug\net8.0\PRN212_HW3.exe
+D:\SU25\PRN212\PRN212_HW3\bin\Debug\net8.0\PRN212_HW3.deps.json
+D:\SU25\PRN212\PRN212_HW3\bin\Debug\net8.0\PRN212_HW3.runtimeconfig.json
+D:\SU25\PRN212\PRN212_HW3\bin\Debug\net8.0\PRN212_HW3.dll
+D:\SU25\PRN212\PRN212_HW3\bin\Debug\net8.0\PRN212_HW3.pdb
+D:\SU25\PRN212\PRN212_HW3\obj\Debug\net8.0\PRN212_HW3.GeneratedMSBuildEditorConfig.editorconfig
+D:\SU25\PRN212\PRN212_HW3\obj\Debug\net8.0\PRN212_HW3.AssemblyInfoInputs.cache
+D:\SU25\PRN212\PRN212_HW3\obj\Debug\net8.0\PRN212_HW3.AssemblyInfo.cs
+D:\SU25\PRN212\PRN212_HW3\obj\Debug\net8.0\PRN212_HW3.csproj.CoreCompileInputs.cache
+D:\SU25\PRN212\PRN212_HW3\obj\Debug\net8.0\PRN212_HW3.dll
+D:\SU25\PRN212\PRN212_HW3\obj\Debug\net8.0\refint\PRN212_HW3.dll
+D:\SU25\PRN212\PRN212_HW3\obj\Debug\net8.0\PRN212_HW3.pdb
+D:\SU25\PRN212\PRN212_HW3\obj\Debug\net8.0\PRN212_HW3.genruntimeconfig.cache
+D:\SU25\PRN212\PRN212_HW3\obj\Debug\net8.0\ref\PRN212_HW3.dll
