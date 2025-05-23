@@ -1,0 +1,14 @@
+D:\SU25\PRN212\PRN212_HW_W2\bin\Debug\net8.0\PRN212_HW_W2.exe
+D:\SU25\PRN212\PRN212_HW_W2\bin\Debug\net8.0\PRN212_HW_W2.deps.json
+D:\SU25\PRN212\PRN212_HW_W2\bin\Debug\net8.0\PRN212_HW_W2.runtimeconfig.json
+D:\SU25\PRN212\PRN212_HW_W2\bin\Debug\net8.0\PRN212_HW_W2.dll
+D:\SU25\PRN212\PRN212_HW_W2\bin\Debug\net8.0\PRN212_HW_W2.pdb
+D:\SU25\PRN212\PRN212_HW_W2\obj\Debug\net8.0\PRN212_HW_W2.GeneratedMSBuildEditorConfig.editorconfig
+D:\SU25\PRN212\PRN212_HW_W2\obj\Debug\net8.0\PRN212_HW_W2.AssemblyInfoInputs.cache
+D:\SU25\PRN212\PRN212_HW_W2\obj\Debug\net8.0\PRN212_HW_W2.AssemblyInfo.cs
+D:\SU25\PRN212\PRN212_HW_W2\obj\Debug\net8.0\PRN212_HW_W2.csproj.CoreCompileInputs.cache
+D:\SU25\PRN212\PRN212_HW_W2\obj\Debug\net8.0\PRN212_HW_W2.dll
+D:\SU25\PRN212\PRN212_HW_W2\obj\Debug\net8.0\refint\PRN212_HW_W2.dll
+D:\SU25\PRN212\PRN212_HW_W2\obj\Debug\net8.0\PRN212_HW_W2.pdb
+D:\SU25\PRN212\PRN212_HW_W2\obj\Debug\net8.0\PRN212_HW_W2.genruntimeconfig.cache
+D:\SU25\PRN212\PRN212_HW_W2\obj\Debug\net8.0\ref\PRN212_HW_W2.dll
