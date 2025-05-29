@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SU25\\PRN212\\HW\\week2\\PRN212_HW_W2\\PRN212_HW_W2.csproj": {}
+    "D:\\SU25\\PRN212\\HW\\week3\\week3_HW1\\week3_HW1.csproj": {}
   },
   "projects": {
-    "D:\\SU25\\PRN212\\HW\\week2\\PRN212_HW_W2\\PRN212_HW_W2.csproj": {
+    "D:\\SU25\\PRN212\\HW\\week3\\week3_HW1\\week3_HW1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SU25\\PRN212\\HW\\week2\\PRN212_HW_W2\\PRN212_HW_W2.csproj",
-        "projectName": "PRN212_HW_W2",
-        "projectPath": "D:\\SU25\\PRN212\\HW\\week2\\PRN212_HW_W2\\PRN212_HW_W2.csproj",
+        "projectUniqueName": "D:\\SU25\\PRN212\\HW\\week3\\week3_HW1\\week3_HW1.csproj",
+        "projectName": "week3_HW1",
+        "projectPath": "D:\\SU25\\PRN212\\HW\\week3\\week3_HW1\\week3_HW1.csproj",
         "packagesPath": "C:\\Users\\Thanh Loc\\.nuget\\packages\\",
-        "outputPath": "D:\\SU25\\PRN212\\HW\\week2\\PRN212_HW_W2\\obj\\",
+        "outputPath": "D:\\SU25\\PRN212\\HW\\week3\\week3_HW1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -48,8 +48,8 @@
         "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
