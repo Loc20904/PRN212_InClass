@@ -1,0 +1,15 @@
+D:\SU25\PRN212\HW\week4\Week4_HW3\obj\Debug\net9.0\Week4_HW3.GeneratedMSBuildEditorConfig.editorconfig
+D:\SU25\PRN212\HW\week4\Week4_HW3\obj\Debug\net9.0\Week4_HW3.AssemblyInfoInputs.cache
+D:\SU25\PRN212\HW\week4\Week4_HW3\obj\Debug\net9.0\Week4_HW3.AssemblyInfo.cs
+D:\SU25\PRN212\HW\week4\Week4_HW3\obj\Debug\net9.0\Week4_HW3.csproj.CoreCompileInputs.cache
+D:\SU25\PRN212\HW\week4\Week4_HW3\obj\Debug\net9.0\Week4_HW3.sourcelink.json
+D:\SU25\PRN212\HW\week4\Week4_HW3\bin\Debug\net9.0\Week4_HW3.exe
+D:\SU25\PRN212\HW\week4\Week4_HW3\bin\Debug\net9.0\Week4_HW3.deps.json
+D:\SU25\PRN212\HW\week4\Week4_HW3\bin\Debug\net9.0\Week4_HW3.runtimeconfig.json
+D:\SU25\PRN212\HW\week4\Week4_HW3\bin\Debug\net9.0\Week4_HW3.dll
+D:\SU25\PRN212\HW\week4\Week4_HW3\bin\Debug\net9.0\Week4_HW3.pdb
+D:\SU25\PRN212\HW\week4\Week4_HW3\obj\Debug\net9.0\Week4_HW3.dll
+D:\SU25\PRN212\HW\week4\Week4_HW3\obj\Debug\net9.0\refint\Week4_HW3.dll
+D:\SU25\PRN212\HW\week4\Week4_HW3\obj\Debug\net9.0\Week4_HW3.pdb
+D:\SU25\PRN212\HW\week4\Week4_HW3\obj\Debug\net9.0\Week4_HW3.genruntimeconfig.cache
+D:\SU25\PRN212\HW\week4\Week4_HW3\obj\Debug\net9.0\ref\Week4_HW3.dll
