@@ -1,0 +1,51 @@
+﻿<Page x:Class="DE180158WPF.View.BookingHistoryPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:models="clr-namespace:DE180158WPF.Models"
+      Title="BookingHistoryPage"
+      Background="#F9FAFB">
+
+    <Border Background="White" CornerRadius="10" Padding="20" Margin="20" BorderBrush="#E5E7EB" BorderThickness="1">
+        <StackPanel>
+
+            <!-- Tiêu đề -->
+            <TextBlock Text="📖 Booking History"
+                       FontSize="26"
+                       FontWeight="Bold"
+                       Foreground="#1F2937"
+                       Margin="0 0 0 20"/>
+
+            <!-- Bảng lịch sử -->
+            <DataGrid x:Name="BookingGrid"
+                      AutoGenerateColumns="False"
+                      IsReadOnly="True"
+                      CanUserAddRows="False"
+                      HeadersVisibility="Column"
+                      GridLinesVisibility="Horizontal"
+                      RowBackground="White"
+                      AlternatingRowBackground="#F3F4F6"
+                      BorderBrush="#D1D5DB"
+                      BorderThickness="1"
+                      ColumnHeaderHeight="40"
+                      FontSize="14"
+                      RowHeight="32"
+                      Padding="4">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="🏨 Room"
+                                        Binding="{Binding Room.RoomNumber}"
+                                        Width="*"/>
+                    <DataGridTextColumn Header="📅 Check-in"
+                                        Binding="{Binding CheckInDate, StringFormat=dd/MM/yyyy}"
+                                        Width="120"/>
+                    <DataGridTextColumn Header="📆 Check-out"
+                                        Binding="{Binding CheckOutDate, StringFormat=dd/MM/yyyy}"
+                                        Width="120"/>
+                    <DataGridTextColumn Header="💵 Total (VND)"
+                                        Binding="{Binding TotalPrice, StringFormat=N0}"
+                                        Width="120"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+        </StackPanel>
+    </Border>
+</Page>

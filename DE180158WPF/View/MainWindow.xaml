@@ -1,0 +1,78 @@
+﻿<Window x:Class="DE180158WPF.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DE180158WPF"
+        mc:Ignorable="d"
+        Title="Hotel Management System"
+        Height="600" Width="960"
+        Background="#F3F4F6"
+        WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style x:Key="NavButtonStyle" TargetType="Button">
+            <Setter Property="Foreground" Value="#1F2937"/>
+            <Setter Property="Background" Value="#FFFFFF"/>
+            <Setter Property="Padding" Value="12,6"/>
+            <Setter Property="FontWeight" Value="Medium"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderBrush" Value="#D1D5DB"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Margin" Value="6,0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="8"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <!-- Hover effect -->
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#3B82F6"/>
+                    <Setter Property="Foreground" Value="#FFFFFF"/>
+                    <Setter Property="BorderBrush" Value="#3B82F6"/>
+                </Trigger>
+                <!-- Pressed effect -->
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#2563EB"/>
+                    <Setter Property="BorderBrush" Value="#2563EB"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <!-- Header -->
+        <DockPanel Background="#288ab8" Height="47" VerticalAlignment="Top">
+            <Label 
+                    x:Name="lblWelcome" 
+                   FontSize="22" Foreground="White" FontWeight="SemiBold"
+                   VerticalAlignment="Center" Margin="24,0,0,0"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" 
+                        DockPanel.Dock="Right" Margin="0,0,24,0">
+                <Button Content="🏠 Home" Click="btnHP_Click" Style="{StaticResource NavButtonStyle}"/>
+                <Button Content="📋 Bookings" Click="btnBHistory_Click" x:Name="btnBHistory" 
+                        Style="{StaticResource NavButtonStyle}"/>
+                <Button Content="👤 Profile" Click="btnProfile_Click" 
+                        Style="{StaticResource NavButtonStyle}"/>
+                <Button Content="🛠 Management" Click="btnManagerment_Click" x:Name="btnManagerment" 
+                        Style="{StaticResource NavButtonStyle}"/>
+                <Button Content="🚪 Logout" Click="btnLogout_Click" 
+                        Style="{StaticResource NavButtonStyle}"/>
+            </StackPanel>
+        </DockPanel>
+
+        <!-- Main Content Frame -->
+        <Frame x:Name="MainFrame" Margin="0,52,0,0" NavigationUIVisibility="Hidden" 
+               Background="#FFFFFF" BorderBrush="#E5E7EB" BorderThickness="0,1,0,0"/>
+    </Grid>
+</Window>

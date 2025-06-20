@@ -1,0 +1,59 @@
+﻿<Page x:Class="DE180158WPF.View.StatisticPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:local="clr-namespace:DE180158WPF.View"
+      mc:Ignorable="d"
+      Title="StatisticsPage"
+      Background="#F9FAFB">
+
+    <Border Background="White" CornerRadius="10" Padding="20" Margin="20" BorderBrush="#D1D5DB" BorderThickness="1">
+        <StackPanel>
+
+            <!-- Tiêu đề -->
+            <TextBlock Text="📊 Booking Report"
+                       FontSize="26"
+                       FontWeight="Bold"
+                       Foreground="#1F2937"
+                       Margin="0 0 0 20"/>
+
+            <!-- Bộ lọc thời gian -->
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 20">
+                <TextBlock Text="📅 From:" VerticalAlignment="Center" Margin="0 0 5 0"/>
+                <DatePicker SelectedDate="{Binding StartDate}" Width="150" Margin="0 0 15 0"/>
+                <TextBlock Text="📆 To:" VerticalAlignment="Center" Margin="0 0 5 0"/>
+                <DatePicker SelectedDate="{Binding EndDate}" Width="150" Margin="0 0 15 0"/>
+                <Button Content="🔍 Generate" Command="{Binding GenerateReportCommand}" Width="120"
+                        Background="#3B82F6" Foreground="White" BorderThickness="0"
+                        FontWeight="SemiBold" Cursor="Hand"/>
+            </StackPanel>
+
+            <!-- Kết quả -->
+            <StackPanel Margin="0 0 0 15">
+                <TextBlock Text="{Binding TotalBookingsText}" FontSize="16" FontWeight="SemiBold" Foreground="#2563EB" Margin="0 0 0 5"/>
+                <TextBlock Text="{Binding TotalRevenueText}" FontSize="16" FontWeight="SemiBold" Foreground="#2563EB"/>
+            </StackPanel>
+
+            <!-- Bảng dữ liệu -->
+            <DataGrid ItemsSource="{Binding Bookings}" AutoGenerateColumns="False"
+                      CanUserAddRows="False" IsReadOnly="True"
+                      HeadersVisibility="Column"
+                      GridLinesVisibility="Horizontal"
+                      RowBackground="White"
+                      AlternatingRowBackground="#F3F4F6"
+                      BorderBrush="#D1D5DB" BorderThickness="1"
+                      RowHeight="34" FontSize="14">
+
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="👤 Customer" Binding="{Binding Customer.CustomerFullName}" Width="*" />
+                    <DataGridTextColumn Header="🏨 Room" Binding="{Binding Room.RoomNumber}" Width="100"/>
+                    <DataGridTextColumn Header="📅 Check-in" Binding="{Binding CheckInDate, StringFormat=dd/MM/yyyy}" Width="120"/>
+                    <DataGridTextColumn Header="📆 Check-out" Binding="{Binding CheckOutDate, StringFormat=dd/MM/yyyy}" Width="120"/>
+                    <DataGridTextColumn Header="💵 Total (VND)" Binding="{Binding TotalPrice, StringFormat=N0}" Width="130"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+        </StackPanel>
+    </Border>
+</Page>

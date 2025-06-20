@@ -1,0 +1,55 @@
+﻿<Window x:Class="DE180158WPF.View.BookingFormWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DE180158WPF.View"
+        mc:Ignorable="d"
+        Title="📝 Booking Form"
+        Height="500" Width="480"
+        WindowStartupLocation="CenterScreen"
+        Background="#F9FAFB">
+
+    <Border Background="White" Padding="20" CornerRadius="10" BorderBrush="#D1D5DB" BorderThickness="1" Margin="16">
+        <StackPanel>
+            <!-- Title -->
+            <TextBlock Text="🛎️ Booking Information" 
+                       FontSize="22" 
+                       FontWeight="Bold" 
+                       Foreground="#1F2937"
+                       Margin="0 0 0 20"/>
+
+            <!-- Room Number -->
+            <TextBlock Text="🏷 Room Number" FontWeight="SemiBold" />
+            <TextBlock Text="{Binding Room.RoomNumber}" FontSize="16" Foreground="#374151" Margin="0 2 0 10"/>
+
+            <!-- Room Description -->
+            <TextBlock Text="📝 Room Description" FontWeight="SemiBold" />
+            <TextBlock Text="{Binding Room.RoomDescription}" TextWrapping="Wrap" FontStyle="Italic" Foreground="#4B5563" Margin="0 2 0 10"/>
+
+            <!-- Price -->
+            <TextBlock Text="💰 Price/Day" FontWeight="SemiBold"/>
+            <TextBlock Text="{Binding Room.RoomPricePerDate, StringFormat='Price per day: {0:N0} VND'}" Foreground="#10B981" FontSize="16" Margin="0 2 0 10"/>
+
+            <Separator Margin="0,10,0,10" Background="#E5E7EB"/>
+
+            <!-- Booking Dates -->
+            <TextBlock Text="📅 Start Date" FontWeight="SemiBold"/>
+            <DatePicker x:Name="dpStart" Height="32" FontSize="14" Margin="0,2,0,10" Background="#FFFFFF" BorderBrush="#D1D5DB"/>
+
+            <TextBlock Text="📅 End Date" FontWeight="SemiBold"/>
+            <DatePicker x:Name="dpEnd" Height="32" FontSize="14" Margin="0,2,0,10" Background="#FFFFFF" BorderBrush="#D1D5DB"/>
+
+            <!-- OK Button -->
+            <Button Content="✅ Confirm Booking"
+                    Click="OK_Click"
+                    Height="40"
+                    FontWeight="Bold"
+                    Background="#3B82F6"
+                    Foreground="White"
+                    BorderThickness="0"
+                    Margin="0,20,0,0"
+                    Cursor="Hand"/>
+        </StackPanel>
+    </Border>
+</Window>

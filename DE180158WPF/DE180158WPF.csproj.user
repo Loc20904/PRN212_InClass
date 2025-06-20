@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="View\BookingDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\BookingFormWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\BookingHistoryPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\BookingManagePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\BookingPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\CustomerDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\CustomerManagePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\ManagermentPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\RoomDinalog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\RoomManagerPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\RoomTypeDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\RoomTypeManagePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\SatisticPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

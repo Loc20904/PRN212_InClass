@@ -1,0 +1,14 @@
+{
+    "exclude": [
+        "**/bin",
+        "**/bower_components",
+        "**/jspm_packages",
+        "**/node_modules",
+        "**/obj",
+        "**/platforms"
+    ],
+    "AdminAccount": {
+        "Email": "ad", //admin@FUMiniHotelSystem.com
+        "Password": "123" //@@abc123@@
+    }
+}
