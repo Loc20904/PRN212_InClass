@@ -8,7 +8,7 @@
         "**/platforms"
     ],
     "AdminAccount": {
-        "Email": "ad", //admin@FUMiniHotelSystem.com
-        "Password": "123" //@@abc123@@
+        "Email": "admin@FUMiniHotelSystem.com",
+        "Password": "@@abc123@@"
     }
 }
