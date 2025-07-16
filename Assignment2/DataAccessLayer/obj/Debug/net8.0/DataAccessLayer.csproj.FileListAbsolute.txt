@@ -1,0 +1,17 @@
+D:\SU25\PRN212\Assignment2\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+D:\SU25\PRN212\Assignment2\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\SU25\PRN212\Assignment2\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\SU25\PRN212\Assignment2\DataAccessLayer\bin\Debug\net8.0\BusinessObject.dll
+D:\SU25\PRN212\Assignment2\DataAccessLayer\bin\Debug\net8.0\Utils.dll
+D:\SU25\PRN212\Assignment2\DataAccessLayer\bin\Debug\net8.0\BusinessObject.pdb
+D:\SU25\PRN212\Assignment2\DataAccessLayer\bin\Debug\net8.0\Utils.pdb
+D:\SU25\PRN212\Assignment2\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\SU25\PRN212\Assignment2\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\SU25\PRN212\Assignment2\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\SU25\PRN212\Assignment2\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\SU25\PRN212\Assignment2\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\SU25\PRN212\Assignment2\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+D:\SU25\PRN212\Assignment2\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+D:\SU25\PRN212\Assignment2\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+D:\SU25\PRN212\Assignment2\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+D:\SU25\PRN212\Assignment2\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll

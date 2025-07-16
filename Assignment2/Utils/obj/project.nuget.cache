@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "JWAyFsJt8g4=",
+  "success": true,
+  "projectFilePath": "D:\\SU25\\PRN212\\Assignment2\\Utils\\Utils.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Thanh Loc\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.6\\microsoft.extensions.configuration.9.0.6.nupkg.sha512",
+    "C:\\Users\\Thanh Loc\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.6\\microsoft.extensions.configuration.abstractions.9.0.6.nupkg.sha512",
+    "C:\\Users\\Thanh Loc\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\9.0.6\\microsoft.extensions.configuration.fileextensions.9.0.6.nupkg.sha512",
+    "C:\\Users\\Thanh Loc\\.nuget\\packages\\microsoft.extensions.configuration.json\\9.0.6\\microsoft.extensions.configuration.json.9.0.6.nupkg.sha512",
+    "C:\\Users\\Thanh Loc\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\9.0.6\\microsoft.extensions.fileproviders.abstractions.9.0.6.nupkg.sha512",
+    "C:\\Users\\Thanh Loc\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\9.0.6\\microsoft.extensions.fileproviders.physical.9.0.6.nupkg.sha512",
+    "C:\\Users\\Thanh Loc\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\9.0.6\\microsoft.extensions.filesystemglobbing.9.0.6.nupkg.sha512",
+    "C:\\Users\\Thanh Loc\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.6\\microsoft.extensions.primitives.9.0.6.nupkg.sha512",
+    "C:\\Users\\Thanh Loc\\.nuget\\packages\\system.io.pipelines\\9.0.6\\system.io.pipelines.9.0.6.nupkg.sha512",
+    "C:\\Users\\Thanh Loc\\.nuget\\packages\\system.text.encodings.web\\9.0.6\\system.text.encodings.web.9.0.6.nupkg.sha512",
+    "C:\\Users\\Thanh Loc\\.nuget\\packages\\system.text.json\\9.0.6\\system.text.json.9.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

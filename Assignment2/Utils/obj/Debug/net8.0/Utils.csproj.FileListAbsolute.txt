@@ -1,0 +1,12 @@
+D:\SU25\PRN212\Assignment2\Utils\bin\Debug\net8.0\Utils.deps.json
+D:\SU25\PRN212\Assignment2\Utils\bin\Debug\net8.0\Utils.dll
+D:\SU25\PRN212\Assignment2\Utils\bin\Debug\net8.0\Utils.pdb
+D:\SU25\PRN212\Assignment2\Utils\obj\Debug\net8.0\Utils.csproj.AssemblyReference.cache
+D:\SU25\PRN212\Assignment2\Utils\obj\Debug\net8.0\Utils.GeneratedMSBuildEditorConfig.editorconfig
+D:\SU25\PRN212\Assignment2\Utils\obj\Debug\net8.0\Utils.AssemblyInfoInputs.cache
+D:\SU25\PRN212\Assignment2\Utils\obj\Debug\net8.0\Utils.AssemblyInfo.cs
+D:\SU25\PRN212\Assignment2\Utils\obj\Debug\net8.0\Utils.csproj.CoreCompileInputs.cache
+D:\SU25\PRN212\Assignment2\Utils\obj\Debug\net8.0\Utils.dll
+D:\SU25\PRN212\Assignment2\Utils\obj\Debug\net8.0\refint\Utils.dll
+D:\SU25\PRN212\Assignment2\Utils\obj\Debug\net8.0\Utils.pdb
+D:\SU25\PRN212\Assignment2\Utils\obj\Debug\net8.0\ref\Utils.dll
